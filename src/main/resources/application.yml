@@ -1,0 +1,11 @@
+server:
+  port: 20061
+spring:
+  application:
+    name: test-jenkins-demo
+  profiles:
+    active: dev
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+logging:
+  config: classpath:logback.xml
